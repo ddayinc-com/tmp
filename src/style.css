@@ -1,0 +1,49 @@
+span.folderItem::before, span.fileItem::before {
+  font-family: "FontAwesomeRegular";
+  padding-right: 5px;
+  color: #647aa0;
+}
+
+span.folderItem::before {
+  content: "\f07c";
+}
+
+span.fileItem::before {
+  content: "\f15c";
+}
+
+body > table {
+  margin-left: 5px;
+}
+body > table tbody > tr:nth-child(2) > td {
+  padding-top: 10px;
+}
+body > table tbody > tr th {
+  font-size: larger;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+body > table tbody > tr th:not(:last-child), body > table tbody > tr td:not(:last-child) {
+  padding-right: 40px;
+  text-align: left;
+}
+body > table tbody > tr th:last-child, body > table tbody > tr td:last-child {
+  padding-left: 20px;
+  text-align: right;
+}
+body > table tbody > tr td:last-child {
+  font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-900.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-solid-900.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FontAwesomeRegular";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.woff2") format("woff2"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fa-regular-400.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=style.css.map */
